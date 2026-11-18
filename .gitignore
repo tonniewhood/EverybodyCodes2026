@@ -1,0 +1,74 @@
+# ---- Build output ----
+build/
+build-*/
+cmake-build-*/
+out/
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+_deps/
+compile_commands.json
+
+# ---- Ninja / Make ----
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ---- C / C++ ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+*.gch
+*.pch
+*.dSYM/
+
+# ---- clangd / ccache ----
+.cache/
+.ccache/
+
+# ---- Rust ----
+target/
+**/*.rs.bk
+*.pdb
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Editors / OS ----
+.vscode/*
+.idea/
+*.swp
+*~
+.DS_Store
+
+# ---- Scratch / Temporary Files ----
+*.tmp
+*.swp
+*.bak
+*/scratch/
+*/Scratch/
